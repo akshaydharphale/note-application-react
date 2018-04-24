@@ -108,7 +108,7 @@ class List extends PureComponent {
             <tr><h3>Notes App</h3></tr>
             <tr><button onClick={() => this.props.redirectToPage('Create')}  >Add New Note</button></tr>
               
-            {this.renderFilter}
+            {this.renderFilter()}
           </tbody>
         </table>
       </p>
