@@ -1,0 +1,20 @@
+{
+  "name": "note-app-react",
+  "version": "1.0.0",
+  "description": "Note Application with CRUD operations",
+  "keywords": ["react", "note"],
+  "main": "src/index.js",
+  "dependencies": {
+    "react": "16.3.2",
+    "react-dom": "16.3.2",
+    "react-scripts": "1.1.4",
+    "validator": "9.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
